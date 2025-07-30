@@ -47,7 +47,7 @@ cd lightweight-ai-rural-africa
 docker build -t local-slim-ai .
 docker run -dp 8000:8000 local-slim-ai
 ````
-###🌐 Accessing the Assistant
+## 🌐 Accessing the Assistant
 
 Once the container is running:
 
@@ -58,7 +58,7 @@ Or, from another device on the same network: `http://<IP-of-device-running-app>`
 You can also test the API using the interactive Swagger UI at:
 `http://localhost:8000/docs`
 ------
-###📚 Use Cases
+## 📚 Use Cases
 
 - Teachers accessing lesson material offline
 
@@ -68,7 +68,7 @@ You can also test the API using the interactive Swagger UI at:
 
 - NGOs deploying tools in disconnected environments
 -------
-###🔬 Under the Hood
+## 🔬 Under the Hood
 
 - Model: Liquid AI 350M SLM via Hugging Face
 
@@ -80,20 +80,20 @@ You can also test the API using the interactive Swagger UI at:
 
 - Inference: Local execution on Raspberry Pi
 -----
-###🛣 Potential Future Roadmap
+## 🛣 Potential Future Roadmap
 - 🔡 Vernacular language support (Bemba, Swahili, Nyanja)
 
 - 📚 Custom fine-tuning for educational and health datasets
 
 - 📦 Offline deployment kits for rural schools and clinics
 ------  
-###🤝 Contributing
+## 🤝 Contributing
 We welcome ideas, translations, or performance improvements. If you're interested in contributing to expanding AI access across Africa and other disconnected regions, feel free to fork, suggest features, or reach out.
 
-###📄 License
+## 📄 License
 MIT License — see LICENSE for details.
 -----
-###🙏 Acknowledgements
+## 🙏 Acknowledgements
 - Liquid AI for open-source SLMs
 
 - FastAPI and Docker communities
