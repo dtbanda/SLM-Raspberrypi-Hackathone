@@ -42,7 +42,7 @@ docker run -dp 8000:8000 <docker-hub-url>
 ### 🛠 Option 2: Build Image Locally (for custom changes or ARM64 compatibility)
 
 ```
-git clone [https://github.com/dtbanda/SLM-Raspberrypi-Hackathone.git]
+git clone https://github.com/dtbanda/SLM-Raspberrypi-Hackathone.git
 cd SLM-Raspberrypi-Hackathone
 docker build -t local-slm-ai .
 docker run -dp 8000:8000 local-slm-ai
@@ -57,6 +57,7 @@ Or, from another device on the same network: `http://<IP-of-device-running-app>`
 
 You can also test the API using the interactive Swagger UI at:
 `http://localhost:8000/docs`
+
 ------
 ## 📚 Use Cases
 
@@ -67,6 +68,7 @@ You can also test the API using the interactive Swagger UI at:
 - Engineers troubleshooting equipment with local AI prompts
 
 - NGOs deploying tools in disconnected environments
+
 -------
 ## 🔬 Under the Hood
 
