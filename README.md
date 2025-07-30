@@ -100,6 +100,8 @@ MIT License — see LICENSE for details.
 
 - Feedback from teachers, nurses, and engineers in Zambia
 
-
+## 📣 Author
+### Dalitso Banda
+**Cloud Engineer | Infrastructure for AI | DevOps |**
 
 
