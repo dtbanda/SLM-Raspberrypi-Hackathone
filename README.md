@@ -42,10 +42,10 @@ docker run -dp 8000:8000 <docker-hub-url>
 ### 🛠 Option 2: Build Image Locally (for custom changes or ARM64 compatibility)
 
 ```
-git clone https://github.com/your-username/lightweight-ai-rural-africa.git
-cd lightweight-ai-rural-africa
-docker build -t local-slim-ai .
-docker run -dp 8000:8000 local-slim-ai
+git clone [https://github.com/dtbanda/SLM-Raspberrypi-Hackathone.git]
+cd SLM-Raspberrypi-Hackathone
+docker build -t local-slm-ai .
+docker run -dp 8000:8000 local-slm-ai
 ````
 ## 🌐 Accessing the Assistant
 
