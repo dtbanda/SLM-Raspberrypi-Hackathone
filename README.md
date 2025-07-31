@@ -36,10 +36,10 @@ You can run this app locally on any ARM64-compatible Linux machine (including Ra
 ### 🔄 Option 1: Pull Prebuilt Image (Recommended for Raspberry Pi)
 
 ```bash
-docker pull <docker-hub-url>
-docker run -dp 8000:8000 <docker-hub-url>
+docker pull dtbanda/slm-pi-app:arm64
+docker run -dp 8000:8000 dtbanda/slm-pi-app:arm64
 ```
-### 🛠 Option 2: Build Image Locally (for custom changes or ARM64 compatibility)
+### 🛠 Option 2: Build Image Locally (for custom changes or processor compatibility eg x86)
 
 ```
 git clone https://github.com/dtbanda/SLM-Raspberrypi-Hackathone.git
