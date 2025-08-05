@@ -102,6 +102,8 @@ MIT License — see LICENSE for details.
 
 - Feedback from teachers, nurses, and engineers in Zambia
 
+## Demo Video Link [https://www.youtube.com/watch?v=R7EHec47lE4&ab_channel=DalitsoBanda]
+
 ## 📣 Author
 ### Dalitso Banda
 **Cloud Engineer | Infrastructure for AI | DevOps |**
